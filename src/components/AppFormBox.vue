@@ -16,7 +16,7 @@
 					<v-btn color="primary" :disabled="!valid" @click="simulate">Simular</v-btn>
 				</v-form>    
 
-				<AppFormDialog v-bind:value="value" v-bind:valueFormat="valueFormat" v-bind:portion="portion" v-bind:dialog="dialog" v-on:closeModal="onCloseModal"></AppFormDialog>
+				<AppFormDialog v-bind:value="value" v-bind:portion="portion" v-bind:dialog="dialog" v-on:closeModal="onCloseModal"></AppFormDialog>
 				
 			</div>    
 
@@ -35,7 +35,6 @@ export default {
     data() {
         return {		
 			value: '',
-			valueFormat: '',
 			portion: '',
 			reason: '',
 			payDate: '',         

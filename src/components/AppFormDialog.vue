@@ -56,7 +56,7 @@
 <script>
 export default {
     name: "AppFormDialog",
-    props: ['value', 'valueFormat', 'portion', 'dialog'],  
+    props: ['value', 'portion', 'dialog'],  
     data() { 
         return {
             loan: '',
